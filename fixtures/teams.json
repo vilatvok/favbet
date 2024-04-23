@@ -1,0 +1,2317 @@
+[
+{
+  "model": "teams.season",
+  "pk": 1,
+  "fields": {
+    "name": "2023/2024"
+  }
+},
+{
+  "model": "teams.country",
+  "pk": 1,
+  "fields": {
+    "uid": "6",
+    "slug": "spain",
+    "name": "Spain",
+    "logo": "countries/6_spain.png"
+  }
+},
+{
+  "model": "teams.country",
+  "pk": 2,
+  "fields": {
+    "uid": "3",
+    "slug": "france",
+    "name": "France",
+    "logo": "countries/3_france.png"
+  }
+},
+{
+  "model": "teams.country",
+  "pk": 3,
+  "fields": {
+    "uid": "5",
+    "slug": "italy",
+    "name": "Italy",
+    "logo": "countries/5_italy.png"
+  }
+},
+{
+  "model": "teams.country",
+  "pk": 4,
+  "fields": {
+    "uid": "4",
+    "slug": "germany",
+    "name": "Germany",
+    "logo": "countries/4_germany.png"
+  }
+},
+{
+  "model": "teams.country",
+  "pk": 5,
+  "fields": {
+    "uid": "44",
+    "slug": "england",
+    "name": "England",
+    "logo": "countries/44_england.png"
+  }
+},
+{
+  "model": "teams.country",
+  "pk": 6,
+  "fields": {
+    "uid": "1",
+    "slug": "eurocups",
+    "name": "eurocups",
+    "logo": ""
+  }
+},
+{
+  "model": "teams.competition",
+  "pk": 1,
+  "fields": {
+    "uid": "302",
+    "slug": "la-liga",
+    "name": "La Liga",
+    "logo": "competitions/302_la-liga.png",
+    "country": 1,
+    "season": 1
+  }
+},
+{
+  "model": "teams.competition",
+  "pk": 2,
+  "fields": {
+    "uid": "175",
+    "slug": "bundesliga",
+    "name": "Bundesliga",
+    "logo": "competitions/175_bundesliga.png",
+    "country": 4,
+    "season": 1
+  }
+},
+{
+  "model": "teams.competition",
+  "pk": 3,
+  "fields": {
+    "uid": "207",
+    "slug": "seria-a",
+    "name": "Serie A",
+    "logo": "competitions/207_serie-a.png",
+    "country": 3,
+    "season": 1
+  }
+},
+{
+  "model": "teams.competition",
+  "pk": 4,
+  "fields": {
+    "uid": "168",
+    "slug": "ligue-1",
+    "name": "Ligue 1",
+    "logo": "competitions/168_ligue-1.png",
+    "country": 2,
+    "season": 1
+  }
+},
+{
+  "model": "teams.competition",
+  "pk": 5,
+  "fields": {
+    "uid": "152",
+    "slug": "premier-league",
+    "name": "Premier League",
+    "logo": "competitions/152_premier-league.png",
+    "country": 5,
+    "season": 1
+  }
+},
+{
+  "model": "teams.competition",
+  "pk": 6,
+  "fields": {
+    "uid": "3",
+    "slug": "uefa-champions-league",
+    "name": "UEFA Champions League",
+    "logo": "competitions/3_uefa-champions-league.png",
+    "country": 6,
+    "season": 1
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 299,
+  "fields": {
+    "uid": "73",
+    "slug": "atletico-madrid",
+    "name": "Atletico Madrid",
+    "logo": "teams/73_atletico-madrid.jpg",
+    "country": 1,
+    "competitions": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 300,
+  "fields": {
+    "uid": "76",
+    "slug": "real-madrid",
+    "name": "Real Madrid",
+    "logo": "teams/76_real-madrid.jpg",
+    "country": 1,
+    "competitions": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 301,
+  "fields": {
+    "uid": "89",
+    "slug": "sevilla",
+    "name": "Sevilla",
+    "logo": "teams/89_sevilla.jpg",
+    "country": 1,
+    "competitions": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 302,
+  "fields": {
+    "uid": "97",
+    "slug": "barcelona",
+    "name": "Barcelona",
+    "logo": "teams/97_barcelona.jpg",
+    "country": 1,
+    "competitions": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 303,
+  "fields": {
+    "uid": "151",
+    "slug": "granada",
+    "name": "Granada",
+    "logo": "teams/151_granada.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 304,
+  "fields": {
+    "uid": "153",
+    "slug": "real-sociedad",
+    "name": "Real Sociedad",
+    "logo": "teams/153_real-sociedad.jpg",
+    "country": 1,
+    "competitions": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 305,
+  "fields": {
+    "uid": "162",
+    "slug": "villarreal",
+    "name": "Villarreal",
+    "logo": "teams/162_villarreal.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 306,
+  "fields": {
+    "uid": "7258",
+    "slug": "athletic-bilbao",
+    "name": "Athletic Bilbao",
+    "logo": "teams/7258_athletic-bilbao.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 307,
+  "fields": {
+    "uid": "7260",
+    "slug": "almeria",
+    "name": "Almeria",
+    "logo": "teams/7260_almeria.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 308,
+  "fields": {
+    "uid": "7261",
+    "slug": "real-betis",
+    "name": "Real Betis",
+    "logo": "teams/7261_real-betis.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 309,
+  "fields": {
+    "uid": "7263",
+    "slug": "girona",
+    "name": "Girona",
+    "logo": "teams/7263_girona.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 310,
+  "fields": {
+    "uid": "7264",
+    "slug": "rayo-vallecano",
+    "name": "Rayo Vallecano",
+    "logo": "teams/7264_rayo-vallecano.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 311,
+  "fields": {
+    "uid": "7269",
+    "slug": "osasuna",
+    "name": "Osasuna",
+    "logo": "teams/7269_osasuna.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 312,
+  "fields": {
+    "uid": "7272",
+    "slug": "valencia",
+    "name": "Valencia",
+    "logo": "teams/7272_valencia.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 313,
+  "fields": {
+    "uid": "7275",
+    "slug": "alaves",
+    "name": "Alaves",
+    "logo": "teams/7275_alaves.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 314,
+  "fields": {
+    "uid": "7277",
+    "slug": "cadiz",
+    "name": "Cadiz",
+    "logo": "teams/7277_cadiz.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 315,
+  "fields": {
+    "uid": "7285",
+    "slug": "mallorca",
+    "name": "Mallorca",
+    "logo": "teams/7285_mallorca.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 316,
+  "fields": {
+    "uid": "7288",
+    "slug": "getafe",
+    "name": "Getafe",
+    "logo": "teams/7288_getafe.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 317,
+  "fields": {
+    "uid": "7289",
+    "slug": "las-palmas",
+    "name": "Las Palmas",
+    "logo": "teams/7289_las-palmas.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 318,
+  "fields": {
+    "uid": "7290",
+    "slug": "celta-vigo",
+    "name": "Celta Vigo",
+    "logo": "teams/7290_celta-vigo.jpg",
+    "country": 1,
+    "competitions": [
+      1
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 332,
+  "fields": {
+    "uid": "80",
+    "slug": "manchester-city",
+    "name": "Manchester City",
+    "logo": "teams/80_manchester-city.jpg",
+    "country": 5,
+    "competitions": [
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 333,
+  "fields": {
+    "uid": "84",
+    "slug": "liverpool",
+    "name": "Liverpool",
+    "logo": "teams/84_liverpool.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 334,
+  "fields": {
+    "uid": "88",
+    "slug": "chelsea",
+    "name": "Chelsea",
+    "logo": "teams/88_chelsea.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 335,
+  "fields": {
+    "uid": "102",
+    "slug": "manchester-united",
+    "name": "Manchester United",
+    "logo": "teams/102_manchester-united.jpg",
+    "country": 5,
+    "competitions": [
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 336,
+  "fields": {
+    "uid": "141",
+    "slug": "arsenal",
+    "name": "Arsenal",
+    "logo": "teams/141_arsenal.jpg",
+    "country": 5,
+    "competitions": [
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 337,
+  "fields": {
+    "uid": "164",
+    "slug": "tottenham-hotspur",
+    "name": "Tottenham Hotspur",
+    "logo": "teams/164_tottenham-hotspur.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 338,
+  "fields": {
+    "uid": "3071",
+    "slug": "afc-bournemouth",
+    "name": "AFC Bournemouth",
+    "logo": "teams/3071_afc-bournemouth.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 339,
+  "fields": {
+    "uid": "3073",
+    "slug": "everton",
+    "name": "Everton",
+    "logo": "teams/3073_everton.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 340,
+  "fields": {
+    "uid": "3074",
+    "slug": "sheffield-united",
+    "name": "Sheffield United",
+    "logo": "teams/3074_sheffield-united.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 341,
+  "fields": {
+    "uid": "3075",
+    "slug": "burnley",
+    "name": "Burnley",
+    "logo": "teams/3075_burnley.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 342,
+  "fields": {
+    "uid": "3077",
+    "slug": "wolverhampton-wanderers",
+    "name": "Wolverhampton Wanderers",
+    "logo": "teams/3077_wolverhampton-wanderers.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 343,
+  "fields": {
+    "uid": "3079",
+    "slug": "brighton-hove-albion",
+    "name": "Brighton & Hove Albion",
+    "logo": "teams/3079_brighton--hove-albion.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 344,
+  "fields": {
+    "uid": "3081",
+    "slug": "west-ham-united",
+    "name": "West Ham United",
+    "logo": "teams/3081_west-ham-united.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 345,
+  "fields": {
+    "uid": "3085",
+    "slug": "fulham",
+    "name": "Fulham",
+    "logo": "teams/3085_fulham.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 346,
+  "fields": {
+    "uid": "3086",
+    "slug": "brentford",
+    "name": "Brentford",
+    "logo": "teams/3086_brentford.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 347,
+  "fields": {
+    "uid": "3088",
+    "slug": "aston-villa",
+    "name": "Aston Villa",
+    "logo": "teams/3088_aston-villa.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 348,
+  "fields": {
+    "uid": "3089",
+    "slug": "nottingham-forest",
+    "name": "Nottingham Forest",
+    "logo": "teams/3089_nottingham-forest.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 349,
+  "fields": {
+    "uid": "3091",
+    "slug": "luton-town",
+    "name": "Luton Town",
+    "logo": "teams/3091_luton-town.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 350,
+  "fields": {
+    "uid": "3100",
+    "slug": "newcastle-united",
+    "name": "Newcastle United",
+    "logo": "teams/3100_newcastle-united.jpg",
+    "country": 5,
+    "competitions": [
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 351,
+  "fields": {
+    "uid": "3429",
+    "slug": "crystal-palace",
+    "name": "Crystal Palace",
+    "logo": "teams/3429_crystal-palace.jpg",
+    "country": 5,
+    "competitions": [
+      5
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 354,
+  "fields": {
+    "uid": "79",
+    "slug": "inter-milan",
+    "name": "Inter Milan",
+    "logo": "teams/79_inter-milan.jpg",
+    "country": 3,
+    "competitions": [
+      3,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 355,
+  "fields": {
+    "uid": "85",
+    "slug": "atalanta",
+    "name": "Atalanta",
+    "logo": "teams/85_atalanta.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 356,
+  "fields": {
+    "uid": "93",
+    "slug": "lazio",
+    "name": "Lazio",
+    "logo": "teams/93_lazio.jpg",
+    "country": 3,
+    "competitions": [
+      3,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 357,
+  "fields": {
+    "uid": "96",
+    "slug": "juventus",
+    "name": "Juventus",
+    "logo": "teams/96_juventus.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 358,
+  "fields": {
+    "uid": "139",
+    "slug": "roma",
+    "name": "Roma",
+    "logo": "teams/139_roma.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 359,
+  "fields": {
+    "uid": "152",
+    "slug": "napoli",
+    "name": "Napoli",
+    "logo": "teams/152_napoli.jpg",
+    "country": 3,
+    "competitions": [
+      3,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 360,
+  "fields": {
+    "uid": "159",
+    "slug": "ac-milan",
+    "name": "AC Milan",
+    "logo": "teams/159_ac-milan.jpg",
+    "country": 3,
+    "competitions": [
+      3,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 361,
+  "fields": {
+    "uid": "4973",
+    "slug": "torino",
+    "name": "Torino",
+    "logo": "teams/4973_torino.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 362,
+  "fields": {
+    "uid": "4974",
+    "slug": "fiorentina",
+    "name": "Fiorentina",
+    "logo": "teams/4974_fiorentina.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 363,
+  "fields": {
+    "uid": "4975",
+    "slug": "sassuolo",
+    "name": "Sassuolo",
+    "logo": "teams/4975_sassuolo.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 364,
+  "fields": {
+    "uid": "4979",
+    "slug": "empoli",
+    "name": "Empoli",
+    "logo": "teams/4979_empoli.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 365,
+  "fields": {
+    "uid": "4981",
+    "slug": "cagliari",
+    "name": "Cagliari",
+    "logo": "teams/4981_cagliari.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 366,
+  "fields": {
+    "uid": "4982",
+    "slug": "verona",
+    "name": "Verona",
+    "logo": "teams/4982_verona.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 367,
+  "fields": {
+    "uid": "4983",
+    "slug": "bologna",
+    "name": "Bologna",
+    "logo": "teams/4983_bologna.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 368,
+  "fields": {
+    "uid": "4984",
+    "slug": "udinese",
+    "name": "Udinese",
+    "logo": "teams/4984_udinese.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 369,
+  "fields": {
+    "uid": "4986",
+    "slug": "genoa",
+    "name": "Genoa",
+    "logo": "teams/4986_genoa.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 370,
+  "fields": {
+    "uid": "4990",
+    "slug": "monza",
+    "name": "Monza",
+    "logo": "teams/4990_monza.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 371,
+  "fields": {
+    "uid": "5000",
+    "slug": "frosinone",
+    "name": "Frosinone",
+    "logo": "teams/5000_frosinone.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 372,
+  "fields": {
+    "uid": "5010",
+    "slug": "lecce",
+    "name": "Lecce",
+    "logo": "teams/5010_lecce.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 373,
+  "fields": {
+    "uid": "5012",
+    "slug": "salernitana",
+    "name": "Salernitana",
+    "logo": "teams/5012_salernitana.jpg",
+    "country": 3,
+    "competitions": [
+      3
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 375,
+  "fields": {
+    "uid": "83",
+    "slug": "marseille",
+    "name": "Marseille",
+    "logo": "teams/83_marseille.jpg",
+    "country": 2,
+    "competitions": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 376,
+  "fields": {
+    "uid": "91",
+    "slug": "rennes",
+    "name": "Rennes",
+    "logo": "teams/91_rennes.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 377,
+  "fields": {
+    "uid": "100",
+    "slug": "psg",
+    "name": "PSG",
+    "logo": "teams/100_psg.jpg",
+    "country": 2,
+    "competitions": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 378,
+  "fields": {
+    "uid": "145",
+    "slug": "nice",
+    "name": "Nice",
+    "logo": "teams/145_nice.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 379,
+  "fields": {
+    "uid": "160",
+    "slug": "lille",
+    "name": "Lille",
+    "logo": "teams/160_lille.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 380,
+  "fields": {
+    "uid": "182",
+    "slug": "reims",
+    "name": "Reims",
+    "logo": "teams/182_reims.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 381,
+  "fields": {
+    "uid": "3793",
+    "slug": "clermont",
+    "name": "Clermont",
+    "logo": "teams/3793_clermont.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 382,
+  "fields": {
+    "uid": "3794",
+    "slug": "toulouse",
+    "name": "Toulouse",
+    "logo": "teams/3794_toulouse.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 383,
+  "fields": {
+    "uid": "3804",
+    "slug": "le-havre",
+    "name": "Le Havre",
+    "logo": "teams/3804_le-havre.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 384,
+  "fields": {
+    "uid": "3814",
+    "slug": "lorient",
+    "name": "Lorient",
+    "logo": "teams/3814_lorient.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 385,
+  "fields": {
+    "uid": "3815",
+    "slug": "lyon",
+    "name": "Lyon",
+    "logo": "teams/3815_lyon.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 386,
+  "fields": {
+    "uid": "3817",
+    "slug": "monaco",
+    "name": "Monaco",
+    "logo": "teams/3817_monaco.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 387,
+  "fields": {
+    "uid": "3818",
+    "slug": "strasbourg",
+    "name": "Strasbourg",
+    "logo": "teams/3818_strasbourg.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 388,
+  "fields": {
+    "uid": "3819",
+    "slug": "montpellier",
+    "name": "Montpellier",
+    "logo": "teams/3819_montpellier.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 389,
+  "fields": {
+    "uid": "3820",
+    "slug": "nantes",
+    "name": "Nantes",
+    "logo": "teams/3820_nantes.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 390,
+  "fields": {
+    "uid": "3821",
+    "slug": "lens",
+    "name": "Lens",
+    "logo": "teams/3821_lens.jpg",
+    "country": 2,
+    "competitions": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 391,
+  "fields": {
+    "uid": "3822",
+    "slug": "metz",
+    "name": "Metz",
+    "logo": "teams/3822_metz.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 392,
+  "fields": {
+    "uid": "3823",
+    "slug": "brest",
+    "name": "Brest",
+    "logo": "teams/3823_brest.jpg",
+    "country": 2,
+    "competitions": [
+      4
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 394,
+  "fields": {
+    "uid": "72",
+    "slug": "bayern-munich",
+    "name": "Bayern Munich",
+    "logo": "teams/72_bayern-munich.jpg",
+    "country": 4,
+    "competitions": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 395,
+  "fields": {
+    "uid": "77",
+    "slug": "borussia-mgladbach",
+    "name": "Borussia M'gladbach",
+    "logo": "teams/77_borussia-mgladbach.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 396,
+  "fields": {
+    "uid": "92",
+    "slug": "borussia-dortmund",
+    "name": "Borussia Dortmund",
+    "logo": "teams/92_borussia-dortmund.jpg",
+    "country": 4,
+    "competitions": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 397,
+  "fields": {
+    "uid": "101",
+    "slug": "rb-leipzig",
+    "name": "RB Leipzig",
+    "logo": "teams/101_rb-leipzig.jpg",
+    "country": 4,
+    "competitions": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 398,
+  "fields": {
+    "uid": "143",
+    "slug": "bayer-leverkusen",
+    "name": "Bayer Leverkusen",
+    "logo": "teams/143_bayer-leverkusen.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 399,
+  "fields": {
+    "uid": "170",
+    "slug": "hoffenheim",
+    "name": "Hoffenheim",
+    "logo": "teams/170_hoffenheim.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 400,
+  "fields": {
+    "uid": "196",
+    "slug": "wolfsburg",
+    "name": "Wolfsburg",
+    "logo": "teams/196_wolfsburg.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 401,
+  "fields": {
+    "uid": "3911",
+    "slug": "bochum",
+    "name": "Bochum",
+    "logo": "teams/3911_bochum.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 402,
+  "fields": {
+    "uid": "3917",
+    "slug": "heidenheim",
+    "name": "Heidenheim",
+    "logo": "teams/3917_heidenheim.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 403,
+  "fields": {
+    "uid": "3922",
+    "slug": "darmstadt",
+    "name": "Darmstadt",
+    "logo": "teams/3922_darmstadt.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 404,
+  "fields": {
+    "uid": "3930",
+    "slug": "werder-bremen",
+    "name": "Werder Bremen",
+    "logo": "teams/3930_werder-bremen.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 405,
+  "fields": {
+    "uid": "3932",
+    "slug": "fc-cologne",
+    "name": "FC Cologne",
+    "logo": "teams/3932_fc-cologne.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 406,
+  "fields": {
+    "uid": "3933",
+    "slug": "stuttgart",
+    "name": "Stuttgart",
+    "logo": "teams/3933_stuttgart.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 407,
+  "fields": {
+    "uid": "3934",
+    "slug": "augsburg",
+    "name": "Augsburg",
+    "logo": "teams/3934_augsburg.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 408,
+  "fields": {
+    "uid": "3936",
+    "slug": "union-berlin",
+    "name": "Union Berlin",
+    "logo": "teams/3936_union-berlin.jpg",
+    "country": 4,
+    "competitions": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 409,
+  "fields": {
+    "uid": "3939",
+    "slug": "mainz",
+    "name": "Mainz",
+    "logo": "teams/3939_mainz.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 410,
+  "fields": {
+    "uid": "3945",
+    "slug": "eintracht-frankfurt",
+    "name": "Eintracht Frankfurt",
+    "logo": "teams/3945_eintracht-frankfurt.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 411,
+  "fields": {
+    "uid": "3962",
+    "slug": "freiburg",
+    "name": "Freiburg",
+    "logo": "teams/3962_freiburg.jpg",
+    "country": 4,
+    "competitions": [
+      2
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 511,
+  "fields": {
+    "uid": "74",
+    "slug": "salzburg",
+    "name": "Salzburg",
+    "logo": "teams/74_salzburg.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 513,
+  "fields": {
+    "uid": "78",
+    "slug": "shakhtar-donetsk",
+    "name": "Shakhtar Donetsk",
+    "logo": "teams/78_shakhtar-donetsk.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 516,
+  "fields": {
+    "uid": "81",
+    "slug": "porto",
+    "name": "Porto",
+    "logo": "teams/81_porto.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 522,
+  "fields": {
+    "uid": "99",
+    "slug": "ferencvaros",
+    "name": "Ferencváros",
+    "logo": "teams/99_ferencvaros.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 526,
+  "fields": {
+    "uid": "108",
+    "slug": "molde",
+    "name": "Molde",
+    "logo": "teams/108_molde.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 527,
+  "fields": {
+    "uid": "110",
+    "slug": "qarabag",
+    "name": "Qarabag",
+    "logo": "teams/110_qarabag.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 528,
+  "fields": {
+    "uid": "112",
+    "slug": "red-star-belgrade",
+    "name": "Red Star Belgrade",
+    "logo": "teams/112_red-star-belgrade.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 529,
+  "fields": {
+    "uid": "119",
+    "slug": "ludogorets",
+    "name": "Ludogorets",
+    "logo": "teams/119_ludogorets.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 530,
+  "fields": {
+    "uid": "121",
+    "slug": "dinamo-zagreb",
+    "name": "Dinamo Zagreb",
+    "logo": "teams/121_dinamo-zagreb.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 531,
+  "fields": {
+    "uid": "125",
+    "slug": "young-boys",
+    "name": "Young Boys",
+    "logo": "teams/125_young-boys.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 532,
+  "fields": {
+    "uid": "126",
+    "slug": "ki",
+    "name": "KÍ",
+    "logo": "teams/126_ki.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 533,
+  "fields": {
+    "uid": "127",
+    "slug": "celtic",
+    "name": "Celtic",
+    "logo": "teams/127_celtic.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 534,
+  "fields": {
+    "uid": "129",
+    "slug": "flora",
+    "name": "Flora",
+    "logo": "teams/129_flora.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 535,
+  "fields": {
+    "uid": "130",
+    "slug": "dinamo-tbilisi",
+    "name": "Dinamo Tbilisi",
+    "logo": "teams/130_dinamo-tbilisi.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 536,
+  "fields": {
+    "uid": "131",
+    "slug": "sheriff",
+    "name": "Sheriff",
+    "logo": "teams/131_sheriff.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 537,
+  "fields": {
+    "uid": "134",
+    "slug": "buducnost",
+    "name": "Buducnost",
+    "logo": "teams/134_buducnost.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 539,
+  "fields": {
+    "uid": "146",
+    "slug": "rangers",
+    "name": "Rangers",
+    "logo": "teams/146_rangers.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 540,
+  "fields": {
+    "uid": "147",
+    "slug": "benfica",
+    "name": "Benfica",
+    "logo": "teams/147_benfica.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 541,
+  "fields": {
+    "uid": "150",
+    "slug": "psv",
+    "name": "PSV",
+    "logo": "teams/150_psv.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 544,
+  "fields": {
+    "uid": "156",
+    "slug": "sporting-braga",
+    "name": "Sporting Braga",
+    "logo": "teams/156_sporting-braga.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 545,
+  "fields": {
+    "uid": "158",
+    "slug": "aek-athens",
+    "name": "AEK Athens",
+    "logo": "teams/158_aek-athens.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 547,
+  "fields": {
+    "uid": "161",
+    "slug": "sparta-prague",
+    "name": "Sparta Prague",
+    "logo": "teams/161_sparta-prague.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 548,
+  "fields": {
+    "uid": "165",
+    "slug": "antwerp",
+    "name": "Antwerp",
+    "logo": "teams/165_antwerp.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 549,
+  "fields": {
+    "uid": "168",
+    "slug": "feyenoord",
+    "name": "Feyenoord",
+    "logo": "teams/168_feyenoord.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 550,
+  "fields": {
+    "uid": "175",
+    "slug": "fc-copenhagen",
+    "name": "FC Copenhagen",
+    "logo": "teams/175_fc-copenhagen.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 551,
+  "fields": {
+    "uid": "185",
+    "slug": "maccabi-haifa",
+    "name": "Maccabi Haifa",
+    "logo": "teams/185_maccabi-haifa.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 552,
+  "fields": {
+    "uid": "192",
+    "slug": "galatasaray",
+    "name": "Galatasaray",
+    "logo": "teams/192_galatasaray.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 553,
+  "fields": {
+    "uid": "195",
+    "slug": "zrinjski",
+    "name": "Zrinjski",
+    "logo": "teams/195_zrinjski.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 554,
+  "fields": {
+    "uid": "203",
+    "slug": "the-new-saints",
+    "name": "The New Saints",
+    "logo": "teams/203_the-new-saints.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 555,
+  "fields": {
+    "uid": "208",
+    "slug": "astana",
+    "name": "Astana",
+    "logo": "teams/208_astana.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 556,
+  "fields": {
+    "uid": "209",
+    "slug": "lincoln-red-imps",
+    "name": "Lincoln Red Imps",
+    "logo": "teams/209_lincoln-red-imps.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 557,
+  "fields": {
+    "uid": "216",
+    "slug": "zalgiris",
+    "name": "Zalgiris",
+    "logo": "teams/216_zalgiris.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 558,
+  "fields": {
+    "uid": "217",
+    "slug": "olimpija",
+    "name": "Olimpija",
+    "logo": "teams/217_olimpija.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 559,
+  "fields": {
+    "uid": "226",
+    "slug": "shamrock-rovers",
+    "name": "Shamrock Rovers",
+    "logo": "teams/226_shamrock-rovers.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 560,
+  "fields": {
+    "uid": "240",
+    "slug": "servette",
+    "name": "Servette",
+    "logo": "teams/240_servette.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 561,
+  "fields": {
+    "uid": "242",
+    "slug": "tsc",
+    "name": "TSC",
+    "logo": "teams/242_tsc.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 562,
+  "fields": {
+    "uid": "271",
+    "slug": "tre-penne",
+    "name": "Tre Penne",
+    "logo": "teams/271_tre-penne.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 563,
+  "fields": {
+    "uid": "744",
+    "slug": "partizani-tirana",
+    "name": "Partizani Tirana",
+    "logo": "teams/744_partizani-tirana.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 564,
+  "fields": {
+    "uid": "858",
+    "slug": "atletic-club-descaldes",
+    "name": "Atlètic Club d'Escaldes",
+    "logo": "teams/858_atletic-club-descaldes.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 565,
+  "fields": {
+    "uid": "1011",
+    "slug": "urartu",
+    "name": "Urartu",
+    "logo": "teams/1011_urartu.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 566,
+  "fields": {
+    "uid": "1236",
+    "slug": "sturm-graz",
+    "name": "Sturm Graz",
+    "logo": "teams/1236_sturm-graz.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 567,
+  "fields": {
+    "uid": "1335",
+    "slug": "bate",
+    "name": "BATE",
+    "logo": "teams/1335_bate.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 568,
+  "fields": {
+    "uid": "1359",
+    "slug": "genk",
+    "name": "Genk",
+    "logo": "teams/1359_genk.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 569,
+  "fields": {
+    "uid": "2452",
+    "slug": "aris-limassol",
+    "name": "Aris Limassol",
+    "logo": "teams/2452_aris-limassol.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 571,
+  "fields": {
+    "uid": "3549",
+    "slug": "hjk",
+    "name": "HJK",
+    "logo": "teams/3549_hjk.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 574,
+  "fields": {
+    "uid": "4299",
+    "slug": "panathinaikos",
+    "name": "Panathinaikos",
+    "logo": "teams/4299_panathinaikos.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 575,
+  "fields": {
+    "uid": "4694",
+    "slug": "breidablik",
+    "name": "Breidablik",
+    "logo": "teams/4694_breidablik.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 576,
+  "fields": {
+    "uid": "5196",
+    "slug": "valmiera",
+    "name": "Valmiera",
+    "logo": "teams/5196_valmiera.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 577,
+  "fields": {
+    "uid": "5292",
+    "slug": "struga",
+    "name": "Struga",
+    "logo": "teams/5292_struga.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 578,
+  "fields": {
+    "uid": "5334",
+    "slug": "hamrun-spartans",
+    "name": "Hamrun Spartans",
+    "logo": "teams/5334_hamrun-spartans.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 579,
+  "fields": {
+    "uid": "5581",
+    "slug": "larne",
+    "name": "Larne",
+    "logo": "teams/5581_larne.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 580,
+  "fields": {
+    "uid": "5763",
+    "slug": "rakow-czestochowa",
+    "name": "Rakow Czestochowa",
+    "logo": "teams/5763_rakow-czestochowa.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 581,
+  "fields": {
+    "uid": "6168",
+    "slug": "fcv-farul-constanta",
+    "name": "FCV Farul Constanţa",
+    "logo": "teams/6168_fcv-farul-constana.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 582,
+  "fields": {
+    "uid": "6565",
+    "slug": "slovan-bratislava",
+    "name": "Slovan Bratislava",
+    "logo": "teams/6565_slovan-bratislava.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 583,
+  "fields": {
+    "uid": "7348",
+    "slug": "hacken",
+    "name": "Häcken",
+    "logo": "teams/7348_hacken.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 584,
+  "fields": {
+    "uid": "7789",
+    "slug": "dnipro-1",
+    "name": "Dnipro-1",
+    "logo": "teams/7789_dnipro-1.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 585,
+  "fields": {
+    "uid": "10184",
+    "slug": "swift-hesperange",
+    "name": "Swift Hesperange",
+    "logo": "teams/10184_swift-hesperange.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+},
+{
+  "model": "teams.team",
+  "pk": 586,
+  "fields": {
+    "uid": "10249",
+    "slug": "ballkani",
+    "name": "Ballkani",
+    "logo": "teams/10249_ballkani.jpg",
+    "country": 6,
+    "competitions": [
+      6
+    ]
+  }
+}
+]
